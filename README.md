@@ -2,9 +2,9 @@
 
 ## Overview
 
-This script, called the deployment script, is a resource for an AWS blog post that covers how to cost optimize a Minecraft Java server running on Amazon Linux EC2 instances. Essentially, this code will use SSM parameters and a monitoring solution to shut down the EC2 instance.
+This script, called the deployment script, is a resource for an AWS blog post that covers how to cost optimize a Minecraft Java server running on Amazon Linux EC2 instances. This solution uses SSM parameters and a monitoring solution to shut down an EC2 instance which runs a Minecraft server after players disconnect.
 
-The architecture diagram below shows how the solution works with the  deploymenet script. Below the diagram is a numbered list corresponding to the diagram to explain what is happening.
+The architecture diagram below shows how the solution works with the deploymenet script. Below the diagram is a numbered list corresponding to the diagram to explain the solution flow.
 
 ![image](./MC-Architecture.png)
 
